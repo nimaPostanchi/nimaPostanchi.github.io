@@ -74,8 +74,8 @@ h1 {
 }
 
 #pImg {
-    border-radius: 50px;
-    margin: 70px 100px 80px 150px;
+    border-radius: 25%;
+    margin: 5% 0 8% 13%;
 }
 
 ul {
@@ -84,26 +84,28 @@ ul {
 }
 
 li  {
-    margin-bottom: 12px;
+    margin-bottom: 8%;
 }
 
 #info {
     float: right;
-    margin: 70px 150px 80px 100px;
-    /* font-size: 18px; */
+    margin: 5% 13% 8% 0;
+    width: 25%;
     background-color: #BBC6BC;
-    border-radius: 15px;
+    border-radius: 8%;
     padding: 10px;
+    hyphens: auto;
+    word-break: break-all;
 }
 
 .material-icons {
-    margin-right: 10px;
+    margin-right: 7%;
     float: left;
 }
 
 .fab {
-    margin-right: 14px;
-    margin-left: 3px;
+    margin-right: 8%;
+    margin-left: 1%;
     float: left;
 }
 
@@ -112,34 +114,27 @@ li.a {
 } 
 
 #story {
-    margin: 0px 120px 80px 150px;
-    /* font-size: 20px; */
+    margin: 0 13% 0 13%;
     text-align: center;
     letter-spacing: 2px;
-    line-height: 25px;
+    line-height: 180%;
     background-color: #BBC6BC;
     border-radius: 15px;
     padding: 10px;
-    width: 70%;
+    width: 72.5%;
 }
 
 #pText{
     text-align: center;
     padding-top: 80px;
     font-size: 160%;
-    letter-spacing: 3px;
-}
-
-#prog {
-    margin: 70px 0px 80px 150px;
-    float: left;
-    width: 35%;
+    letter-spacing: 4px;
 }
 
 .row {
-    margin: 70px 0px 80px 150px;
+    margin: 5% 0 8% 13%;
     float: left;
-    width: 35%;
+    width: 36%;
     background-color: #BBC6BC;
     border-radius: 15px;
     padding: 10px;
@@ -152,15 +147,14 @@ li.a {
   }
 
 #logo {
-    margin-right: 12px;
+    margin-right: 7%;
     margin-top: 2px;
     float: left;
-    
 }
 
 #lang {
     float: right;
-    margin: 70px 150px 80px 0px;
+    margin: 5% 13% 8% 0;
     width: 22%;
     background-color: #BBC6BC;
     border-radius: 15px;
@@ -170,11 +164,11 @@ li.a {
 .side {
     float: left;
     width: 30%;
-    margin-bottom:20px;
+    margin-bottom: 4%;
   }
   
   .middle {
-    margin-bottom:20px;
+    margin-bottom: 4%;
     float: left;
     width: 70%;
   }
@@ -186,24 +180,24 @@ li.a {
     color: white;
   }
 
-  .bar-java {width: 70%; height: 18px; background-color: #5892DD;}
-  .bar-html {width: 75%; height: 18px; background-color: #DE341F;}
-  .bar-css {width: 65%; height: 18px; background-color: #0E4DB5;}  
-  .bar-script {width: 55%; height: 18px; background-color: #F3D204;}
-  .bar-react {width: 70%; height: 18px; background-color: #28C9E6;}
-  .bar-angular {width: 40%; height: 18px; background-color: #DE341F;}
-  .bar-sql {width: 45%; height: 18px; background-color: #2EA2E5;}
-  .bar-jquery {width: 35%; height: 18px; background-color: #091319;}
-  .bar-git {width: 50%; height: 18px; background-color: #EF6123;}
+  .bar-java {width: 66%; height: 18px; background-color: #5892DD;}
+  .bar-html {width: 71%; height: 18px; background-color: #DE341F;}
+  .bar-css {width: 61%; height: 18px; background-color: #0E4DB5;}  
+  .bar-script {width: 52%; height: 18px; background-color: #F3D204;}
+  .bar-react {width: 67%; height: 18px; background-color: #28C9E6;}
+  .bar-angular {width: 38%; height: 18px; background-color: #DE341F;}
+  .bar-sql {width: 42%; height: 18px; background-color: #2EA2E5;}
+  .bar-jquery {width: 33%; height: 18px; background-color: #091319;}
+  .bar-git {width: 48%; height: 18px; background-color: #EF6123;}
   .bar-json {width: 50%; height: 18px; background-color: #2196F3;}
 
   #ss {
-    margin-bottom: 20px;
+    margin-bottom: 6%;
     overflow: auto;
   }
 
   .work {
-    margin: 70px 150px 80px 0px;
+    margin: 5% 13% 8% 0;
     float: right;
     width: 32%;
     background-color: #BBC6BC;
@@ -212,7 +206,7 @@ li.a {
   }
 
   .development {
-    margin: 70px 0px 80px 150px;
+    margin: 5% 0 8% 13%;
     float: left;
     width: 32%;
     background-color: #BBC6BC;
@@ -221,27 +215,27 @@ li.a {
   }
 
   #workDetail {
-    margin-bottom: 60px;
+    margin-bottom: 12%;
   }
 
   #title {
     font-weight: 600;
-    margin-bottom: 4px;
+    margin-bottom: 1.2%;
   }
 
   #workTitle {
     float: left;
-    width: 65%;
+    width: 60%;
   }
 
   #workPeriode {
       float: right;
-      width: 28%;
+      width: 30%;
       text-align: right;
   }
 
   #developmentDetail {
-      margin-bottom: 60px;
+      margin-bottom: 12%;
   }
 
   #developmentTitle {
@@ -257,16 +251,16 @@ li.a {
   }
 
   .educationSection {
-    margin: 70px 150px 80px 150px;
+    margin: 5% 13% 8% 10%;
     float: right;
-    width: 70%;
+    width: 72.5%;
     background-color: #BBC6BC;
     border-radius: 15px;
     padding: 10px;
   }
 
   #study {
-    margin-bottom: 60px;
+    margin-bottom: 6.5%;
   }
 
   #detail {
