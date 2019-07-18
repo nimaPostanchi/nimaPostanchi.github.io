@@ -84,12 +84,12 @@ ul {
 }
 
 li  {
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 
 #info {
     float: right;
-    margin: 5% 13% 8% 0;
+    margin: 5% 13% 0 0;
     width: 25%;
     background-color: #BBC6BC;
     border-radius: 8%;
@@ -132,7 +132,7 @@ li.a {
 }
 
 .row {
-    margin: 5% 0 8% 13%;
+    margin: 5% 0 0% 13%;
     float: left;
     width: 36%;
     background-color: #BBC6BC;
@@ -163,14 +163,14 @@ li.a {
 
 .side {
     float: left;
-    width: 30%;
+    width: 20%;
     margin-bottom: 4%;
   }
   
-  .middle {
+.middle {
     margin-bottom: 4%;
-    float: left;
-    width: 70%;
+    float: right;
+    width: 75%;
   }
 
   .bar-container {
