@@ -1,12 +1,242 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Resume</title>
 </head>
+
 <body>
 
-<h1 style="color:green;">Joni is my pishy</h1>
+    <header>
+        <h1 id="name">Nima Postanchi</h1>
+        <h2 id="subject">WEB DEVELOPER</h2>
+        <h3 id="secondText">Interactive resume</h3>
 
+        <div id="menu">
+            <button type="button" onclick="window.location.href = '#profile';">Profile</button>
+            <button type="button" onclick="window.location.href = '#skills';">Skills</button>
+            <button type="button" onclick="window.location.href = '#experiences';">Experiences</button>
+            <button type="button" onclick="window.location.href = '#education';">Education</button>
+        </div>
+    </header>
+
+    <section id="profile">
+        <h1 id="pText">PROFILE</h1>
+        <img id="pImg" src="nima.jpg" width="220" height="220">
+        <div id="info">
+            <ul>
+                <li>
+                    <i class="material-icons">&#xe0e1;</i>
+                    <a href="mailto:nima.postanchi@gmail.com">nima.postanchi@gmail.com</a>
+                </li>
+                <li>
+                    <i class="material-icons">&#xe325;</i>
+                    <a>+32483364711</a>
+                </li>
+
+                <li>
+                    <i class="material-icons">&#xe0c8;</i>
+                    <a>Living in Belgium</a>
+                </li>
+                <li>
+                    <i style='font-size:20px' class='fab'>&#xf0e1;</i>
+                    <a href="https://www.linkedin.com/in/nima-postanchi-5057a1115/">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+        <div id="story">
+            <p>I recently graduated of UC Leuven Libmurg in IT program, specialising in software and web development.
+                I am skilled at writing well-designed, testable and efficient code. Aside from work I am interested in
+                art
+                and I
+                organise cultural events.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1 id="pText">SKILLS</h1>
+        <div class="row">
+            <h2>Programming skills</h2>
+            <div class="side">
+                <div>Java</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-java"></div>
+                </div>
+            </div>
+            <div class="side">
+                <div>HTML</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-html"></div>
+                </div>
+            </div>
+            <div class="side">
+                <div>JavaScript</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-script"></div>
+                </div>
+            </div>
+            <div class="side">
+                <div>CSS</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-css"></div>
+                </div>
+            </div>
+            <div class="side">
+                <div>React(Native)</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-react"></div>
+                </div>
+            </div>
+            <div class="side">
+                <div>Angular</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-angular"></div>
+                </div>
+            </div>
+            <div class="side">
+                <div>SQL</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-sql"></div>
+                </div>
+            </div>
+            <div class="side">
+                <div>JQuery</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-jquery"></div>
+                </div>
+            </div>
+            <div class="side">
+                <div>Git</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-git"></div>
+                </div>
+            </div>
+            <div class="side">
+                <div>JSON/XML</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-json"></div>
+                </div>
+            </div>
+        </div>
+        <div id="lang">
+            <h2>Languages</h2>
+            <div id="ss">
+                <img id="logo" src="pics/Flag-of-Iran-no-symbol.png" width="20" height="13">
+                <div id="langText">Native Persian speaker</div>
+            </div>
+            <div id="ss">
+                <img id="logo" src="pics/1280px-Flag_of_the_United_Kingdom.svg.png" width="20" height="13">
+                <div id="langText">Fluent in English</div>
+            </div>
+            <div id="ss">
+                <img id="logo" src="pics/flag-netherlands.jpg" width="20" height="13">
+                <div id="langText">Fluent in Dutch</div>
+            </div>
+            <div id="ss">
+                <img id="logo" src="pics/682-004-5AC19A71.jpg" width="20" height="13">
+                <div id="langText">Basic knowledge of French</div>
+            </div>
+        </div>
+    </section>
+    <section id="experiences">
+        <h1 id="pText">EXPERIENCES</h1>
+        <div class="work">
+            <h2>Work Experiences</h2>
+            <div id="workDetail">
+                <div id="title">Intern</div>
+                <div id="workTitle"><a href="https://mindance.de/">Mindance</a>, Leizpig, Germany</div>
+                <div id="workPeriode">March - May 2019</div>
+            </div>
+            <div id="workDetail">
+                <div id="title">President</div>
+                <div id="workTitle"><a href="https://www.facebook.com/ILCA.Leuven/">ILCA</a>, Leuven, Belgium</div>
+                <div id="workPeriode">2014 - Current</div>
+            </div>
+        </div>
+        <div class="development">
+            <h2>Development Experiences</h2>
+            <div id="developmentDetail">
+                <div id="title">Mindance</div>
+                <div id="developmentTitle">Design graphs - Reac Native</div>
+                <div id="developmentPeriode">2019</div>
+            </div>
+            <div id="developmentDetail">
+                <div id="title">Werklast</div>
+                <div id="developmentTitle">Web app for studies - angular/Java</div>
+                <div id="developmentPeriode">2019</div>
+            </div>
+            <div id="developmentDetail">
+                <div id="title">Bar-Code</div>
+                <div id="developmentTitle">Training app - React Native</div>
+                <div id="developmentPeriode">2018</div>
+            </div>
+            <div id="developmentDetail">
+                <div id="title">ILCA's website</div>
+                <div id="developmentTitle">Web app - Java/HTML/CSS</div>
+                <div id="developmentPeriode">2016</div>
+            </div>
+
+        </div>
+    </section>
+    <section id="education">
+        <h1 id="pText">EDUCATION</h1>
+        <div class="educationSection">
+            <br />
+            <div id="study">
+                <div id="title">Bachelor’s Degree: Information Technology</div>
+                <div id="detail">UC Leuven Limburg</div>
+                <div id="year">2014 - 2019</div>
+            </div>
+            <div id="study">
+                <div id="title">Bachelor’s Degree: Art</div>
+                <div id="detail">KU Leuven</div>
+                <div id="year">2016 - Current</div>
+            </div>
+            <div id="study">
+                <div id="title">Erasmus</div>
+                <div id="detail">European University Of Cyprus 2017</div>
+                <div id="year">2017</div>
+            </div>
+            <div id="study">
+                <div id="title">Bachelor’s Degree: Information Technology</div>
+                <div id="detail">KU Leuven</div>
+                <div id="year">2014</div>
+            </div>
+            <div id="study">
+                <div id="title">Bachelor’s Degree: Computer Software</div>
+                <div id="detail">Afarinesh university, Iran</div>
+                <div id="year">2006 - 2009</div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
