@@ -2,6 +2,7 @@ html, body {
     font: farah;
     letter-spacing: 1px;
     height: 100%;
+    background-color: #DAE1DC;
 }
 
 header {
@@ -55,22 +56,22 @@ h1 {
 }
 
 #profile {
-    height: 100%;
+    min-height: 100vh;
     background-color: #DAE1DC;
 }
 
 #skills {
-    height: 100%;
+    min-height: 100vh;
     background-color: #DAE1DC;
 }
 
 #experiences {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #DAE1DC;
 }
 
 #education {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #DAE1DC;
 }
 
@@ -90,7 +91,7 @@ li  {
 
 #info {
     float: right;
-    margin: 5% 13% 0 0;
+    margin: 5% 13% 0% 0;
     width: 25%;
     background-color: #BBC6BC;
     border-radius: 8%;
