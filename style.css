@@ -55,6 +55,10 @@ h1 {
     color: #4D8E63;
 }
 
+.line {
+    border-top: 2px solid green;
+}
+
 #profile {
     min-height: 100vh;
     background-color: #DAE1DC;
@@ -116,7 +120,7 @@ li.a {
 } 
 
 #story {
-    margin: 0 13% 0 13%;
+    margin: 0 13% 5% 13%;
     text-align: center;
     letter-spacing: 2px;
     line-height: 180%;
