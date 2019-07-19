@@ -1,6 +1,7 @@
-body {
+html, body {
     font: farah;
     letter-spacing: 1px;
+    height: 100%;
 }
 
 header {
@@ -54,12 +55,12 @@ h1 {
 }
 
 #profile {
-    height: 100vh;
+    height: 100%;
     background-color: #DAE1DC;
 }
 
 #skills {
-    height: 100vh;
+    height: 100%;
     background-color: #DAE1DC;
 }
 
