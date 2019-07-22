@@ -1,8 +1,9 @@
 html, body {
-    font: farah;
+    font-family: Verdana;
     letter-spacing: 1px;
     height: 100%;
     background-color: #DAE1DC;
+    font-size: 15px;
 }
 
 header {
@@ -89,9 +90,9 @@ ul {
     padding: 0 10px 0 10px;
 }
 
-li  {
+/* li  {
     margin-bottom: 10%;
-}
+} */
 
 #info {
     float: right;
@@ -102,6 +103,10 @@ li  {
     padding: 10px;
     hyphens: auto;
     word-break: break-all;
+}
+
+#info > ul > li {
+    margin-bottom: 10%;
 }
 
 .material-icons {
@@ -137,46 +142,41 @@ li.a {
     letter-spacing: 4px;
 }
 
-.row {
-    margin: 5% 0 0% 13%;
-    float: left;
-    width: 36%;
+.skillSection{
+    margin: 0 13% 2% 13%;
     background-color: #BBC6BC;
     border-radius: 15px;
     padding: 10px;
+    width: 72.5%;
+    overflow: auto;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+#proLeft{
+    float: left;
+    width: 45%;
+}
+
+#proRight {
+    float: right;
+    width: 45%;
+}
 
 #logo {
-    margin-right: 7%;
+    margin-right: 5%;
     margin-top: 2px;
     float: left;
 }
 
-#lang {
-    float: right;
-    margin: 5% 13% 8% 0;
-    width: 22%;
-    background-color: #BBC6BC;
-    border-radius: 15px;
-    padding: 10px;
-}
-
 .side {
     float: left;
-    width: 20%;
-    margin-bottom: 4%;
+    width: 25%;
+    margin-bottom: 3%;
   }
   
 .middle {
-    margin-bottom: 4%;
+    margin-bottom: 3%;
     float: right;
-    width: 75%;
+    width: 73%;
   }
 
   .bar-container {
@@ -186,42 +186,42 @@ li.a {
     color: white;
   }
 
-  .bar-java {width: 66%; height: 18px; background-color: #5892DD;}
-  .bar-html {width: 71%; height: 18px; background-color: #DE341F;}
-  .bar-css {width: 61%; height: 18px; background-color: #0E4DB5;}  
-  .bar-script {width: 52%; height: 18px; background-color: #F3D204;}
-  .bar-react {width: 67%; height: 18px; background-color: #28C9E6;}
-  .bar-angular {width: 38%; height: 18px; background-color: #DE341F;}
-  .bar-sql {width: 42%; height: 18px; background-color: #2EA2E5;}
-  .bar-jquery {width: 33%; height: 18px; background-color: #091319;}
-  .bar-git {width: 48%; height: 18px; background-color: #EF6123;}
-  .bar-json {width: 50%; height: 18px; background-color: #2196F3;}
+  .bar-java {width: 67%; height: 13px; margin: 3px 0 3px 0; background-color: #5892DD;}
+  .bar-html {width: 71%; height: 13px; margin: 3px 0 3px 0; background-color: #DE341F;}
+  .bar-css {width: 61%; height: 13px; margin: 3px 0 3px 0; background-color: #0E4DB5;}  
+  .bar-script {width: 52%; height: 13px; margin: 3px 0 3px 0; background-color: #F3D204;}
+  .bar-react {width: 66%; height: 13px; margin: 3px 0 3px 0; background-color: #28C9E6;}
+  .bar-angular {width: 38%; height: 13px; margin: 3px 0 3px 0; background-color: #DE341F;}
+  .bar-sql {width: 42%; height: 13px; margin: 3px 0 3px 0; background-color: #2EA2E5;}
+  .bar-jquery {width: 33%; height: 13px; margin: 3px 0 3px 0; background-color: #091319;}
+  .bar-git {width: 48%; height: 13px; margin: 3px 0 3px 0; background-color: #EF6123;}
+  .bar-json {width: 58%; height: 13px; margin: 3px 0 3px 0; background-color: #2196F3;}
+  .jsx {width: 55%; height: 13px; margin: 3px 0 3px 0; background-color: #4F5750;}
+  .mvc {width: 65%; height: 13px; margin: 3px 0 3px 0; background-color: #1D6827;}
 
   #ss {
-    margin-bottom: 6%;
+    margin-bottom: 4%;
     overflow: auto;
   }
 
   .work {
-    margin: 5% 13% 8% 0;
-    float: right;
-    width: 32%;
+    margin: 0 13% 2% 13%;
     background-color: #BBC6BC;
     border-radius: 15px;
     padding: 10px;
+    width: 72.5%;
   }
 
   .development {
-    margin: 5% 0 8% 13%;
-    float: left;
-    width: 32%;
+    margin: 0 13% 2% 13%;
     background-color: #BBC6BC;
     border-radius: 15px;
     padding: 10px;
+    width: 72.5%;
   }
 
   #workDetail {
-    margin-bottom: 12%;
+    margin-bottom: 4.5%;
   }
 
   #title {
@@ -241,7 +241,7 @@ li.a {
   }
 
   #developmentDetail {
-      margin-bottom: 12%;
+      margin-bottom: 4.5%;
   }
 
   #developmentTitle {
@@ -252,8 +252,7 @@ li.a {
   #developmentPeriode {
     float: right;
     width: 15%;
-    hyphens: auto;
-    word-break: break-all;
+    text-align: right;
   }
 
   .educationSection {
