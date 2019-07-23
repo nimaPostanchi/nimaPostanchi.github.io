@@ -1,5 +1,5 @@
 html, body {
-    font-family: Verdana;
+    font-family: lato;
     letter-spacing: 1px;
     height: 100%;
     background-color: #DAE1DC;
@@ -52,6 +52,11 @@ text-align: center;
 flex-direction: row;
 }
 
+#printButton {
+    text-align: center;
+    margin-top: 2%;   
+}
+
 h1 {
     color: #4D8E63;
 }
@@ -90,10 +95,6 @@ ul {
     padding: 0 10px 0 10px;
 }
 
-/* li  {
-    margin-bottom: 10%;
-} */
-
 #info {
     float: right;
     margin: 5% 13% 0% 0;
@@ -106,7 +107,7 @@ ul {
 }
 
 #info > ul > li {
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
 
 .material-icons {
