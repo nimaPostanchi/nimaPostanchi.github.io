@@ -149,36 +149,50 @@ li.a {
     border-radius: 15px;
     padding: 10px;
     width: 72.5%;
-    overflow: auto;
-}
-
-#proLeft{
-    float: left;
-    width: 45%;
-}
-
-#proRight {
-    float: right;
-    width: 45%;
 }
 
 #logo {
-    margin-right: 5%;
-    margin-top: 2px;
-    float: left;
+    margin-bottom: 10px;
+}
+
+.proSection {
+    display: flex;
+}
+
+.proLeft {
+    display: flex;
+    flex: 40%;
+    margin-right: 4%;
+}
+
+.proRight {
+    display: flex;
+    flex: 40%;
 }
 
 .side {
-    float: left;
-    width: 25%;
-    margin-bottom: 3%;
-  }
-  
-.middle {
-    margin-bottom: 3%;
-    float: right;
-    width: 73%;
-  }
+    flex: 25%;
+}
+
+.main {
+    flex: 73%;
+}
+
+.side1 {
+    flex: 80%;
+}
+
+.main1 {
+    flex: 10%;
+}
+
+.side > div {
+        margin-bottom: 4%;
+}
+
+.main > div {
+        margin-bottom: 3%;
+}
 
   .bar-container {
     width: 100%;
@@ -205,56 +219,27 @@ li.a {
     overflow: auto;
   }
 
-  .work {
+ .workDetail {
+   text-align: left; 
+     margin-top: 1%;
+     font-style: italic;
+}
+
+.date {
+    text-align: right;
+}
+
+  /* .development {
     margin: 0 13% 2% 13%;
     background-color: #BBC6BC;
     border-radius: 15px;
     padding: 10px;
     width: 72.5%;
-  }
-
-  .development {
-    margin: 0 13% 2% 13%;
-    background-color: #BBC6BC;
-    border-radius: 15px;
-    padding: 10px;
-    width: 72.5%;
-  }
-
-  #workDetail {
-    margin-bottom: 4.5%;
-  }
+  } */
 
   #title {
     font-weight: bold;
     margin-bottom: 0.6%;
-  }
-
-  #workTitle {
-    float: left;
-    width: 60%;
-  }
-
-  #workPeriode {
-      float: right;
-      width: 30%;
-      text-align: right;
-  }
-
-  #developmentDetail {
-      margin-bottom: 4.5%;
-      
-  }
-
-  #developmentTitle {
-      float: left;
-      width: 70%;
-  }
-
-  #developmentPeriode {
-    float: right;
-    width: 15%;
-    text-align: right;
   }
 
   .educationSection {
